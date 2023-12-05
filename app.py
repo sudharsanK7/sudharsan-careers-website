@@ -24,14 +24,14 @@ JOBS = [
     'id': 4,
     'title': 'Full-stack Developer',
     'location': 'San francisco, USA',
-    'salary': '$ 120,000'
+    'salary': '$ 125,000'
   }
 ]
 @app.route("/")
 def hello_world():
   return render_template("home.html", 
                          jobs=JOBS, 
-                         company_name = "Speed's")
+                         company_name = "Speedy")
 
 @app.route("/api/jobs")
 def job_list():

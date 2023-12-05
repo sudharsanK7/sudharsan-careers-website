@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Speed Careers</title>
+    <title>Speedy Careers</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <style>
     #banner {
@@ -20,7 +20,7 @@
       <h2 class="text-center mt-2 mb-4">About {{company_name}}</h2>
       <p class = "lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-      <h2 class="text-center mt-2 mb-4">Open Positions</h2>
+      <h2 class="text-center mt-2 mb-4">Job Openings</h2>
       <div>
         {% for job in jobs %}
           {% include 'jobitem.html' %}
@@ -28,7 +28,7 @@
       </div>
       <div class = "text-center">
         <button class="btn btn-primary btn-lg">Contact Us</button>
-        <p class = "mt-4">Copyright 2023, Speed's </p>
+        <p class = "mt-4">Copyright 2023, {{company_name}} </p>
       <div>
     </div>
   </body>
